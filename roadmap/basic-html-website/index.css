@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background: #ddd;
+    width: 100%;
+}
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .navigation {
+    width: 50%;
+    float: right;
+}
+
+header .navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+header .navigation ul li {
+    display: inline-block;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .education ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.hero .education ul li {
+    padding-bottom: 10px;
+}
